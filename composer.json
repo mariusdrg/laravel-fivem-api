@@ -1,0 +1,34 @@
+{
+    "name": "mariusdrg/laravel-fivem-api",
+    "description": "This package is used for fetching GTA FiveM server information.",
+    "type": "library",
+    "require": {
+        "php": ">=8.0",
+        "illuminate/support": ">=5.4",
+        "guzzlehttp/guzzle": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mariusdrg\\LaravelFivemApi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Mariusdrg\\LaravelFivemApi\\Providers\\LFAServiceProvider"
+            ],
+            "aliases": {
+                "LaravelFivemApi": "\\Mariusdrg\\LaravelFivemApi\\LaravelFivemApi"
+            }
+        }
+    },
+    "authors": [
+        {
+            "name": "mariusdrg",
+            "email": "mariuss.dragulin@gmail.com",
+            "homepage": "https://wcode.ro/",
+            "role": "Developer"
+        }
+    ]
+}
