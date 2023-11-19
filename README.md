@@ -9,7 +9,7 @@ guzzlehttp/guzzle >=7.0
 ## Installation
 
 ### To install with Composer simply use:
-```composer install mariusdrg/laravel-fivem-api```
+```composer require mariusdrg/laravel-fivem-api```
 
 ## ServiceProvider in Laravel
 
